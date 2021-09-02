@@ -1,27 +1,6 @@
 ---
 title: Home
 sections:
-  - type: hero_section
-    title: Hello From Code
-    subtitle: Optional hero section subtitle
-    content: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-      ligula, cursus id molestie vel.
-    actions:
-      - label: Try Free
-        url: /pricing
-        style: primary
-      - label: Learn More
-        url: /features
-        style: secondary
-    image: /images/about-2.jpg
-    image_alt: Hero section placeholder image
-    media_position: left
-    media_width: fifty
-    align: left
-    padding_top: large
-    padding_bottom: large
-    background_color: primary
   - type: grid_section
     title: Image Grid 1
     subtitle: Grid Section Example
@@ -54,6 +33,27 @@ sections:
     grid_cols: four
     grid_gap_horiz: medium
     grid_gap_vert: medium
+  - type: hero_section
+    title: Hello From Code
+    subtitle: Optional hero section subtitle
+    content: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
+      ligula, cursus id molestie vel.
+    actions:
+      - label: Try Free
+        url: /pricing
+        style: primary
+      - label: Learn More
+        url: /features
+        style: secondary
+    image: /images/about-2.jpg
+    image_alt: Hero section placeholder image
+    media_position: left
+    media_width: fifty
+    align: left
+    padding_top: large
+    padding_bottom: large
+    background_color: primary
   - type: features_section
     title: Features Section
     subtitle: Features Section Example
